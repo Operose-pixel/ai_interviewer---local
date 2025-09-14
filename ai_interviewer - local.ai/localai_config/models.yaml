@@ -1,0 +1,8 @@
+- name: gpt-4
+  backend: gpt4all  # <-- This line is the crucial addition
+  model: ggml-gpt4all-j-v1.3-groovy.bin
+
+- name: tts-1
+  backend: piper
+  model: en_US-kathleen-low.onnx
+  
